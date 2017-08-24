@@ -1,0 +1,25 @@
+{
+  "name": "comments-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LW2904/comments-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LW2904/comments-scraper/issues"
+  },
+  "homepage": "https://github.com/LW2904/comments-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.18.1",
+    "steamidconvert": "^0.2.4",
+    "winston": "^2.3.1"
+  }
+}
