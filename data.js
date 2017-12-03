@@ -21,7 +21,8 @@ let slim = JSON.parse(fs.readFileSync(PATH + 'slim.json'))
 let ids = []
 for (let c of comments) { ids.push(c.id) }
 
-slim.start = Date.now()
+if (!slim.start) slim.start = Date.now()
+
 fs.writeFileSync(PATH + 'slim.json', JSON.stringify(slim))
 log.debug(`wrote to slim.json`)
 
