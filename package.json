@@ -19,6 +19,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "moment": "^2.18.1",
+    "request": "^2.81.0",
     "steamidconvert": "^0.2.4",
     "winston": "^2.3.1"
   }
